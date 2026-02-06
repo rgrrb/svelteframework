@@ -57,6 +57,7 @@
         position: relative;
         width: 600px;
         box-sizing: border-box;
+        z-index: 999;
     }
     .search-button svg {
         min-height: 60%;
@@ -121,8 +122,10 @@
         box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
         border-radius: 0 0 16px 16px;
         font-family: Arial, Helvetica, sans-serif;
+        z-index: 999;
     }
     .search-bar:has(.div-input:focus) .suggestion {
+        z-index: 999;
         display: flex;
         flex-direction: column;
         padding-top: 10px;
